@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    />
+                <EditText
+                    android:id="@+id/editp1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p1"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p2"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p3"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p4"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p5"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p6"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p7"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p8"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p9"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p10"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p11"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p12"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p13"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p14"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p15"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p16"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p17"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p18"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p19"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p20"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/editp21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:hint="@string/p21"
+                    android:inputType="text" />
+                <Button
+                    android:id="@+id/btnaceptar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnaceptar" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </ScrollView>
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Formulario21</string>
+    <string name="titulo">Formulario preguntas</string>
+    <string name="p1">Mi Formulario</string>
+    <string name="p2">Mi Formulario</string>
+    <string name="p3">Mi Formulario</string>
+    <string name="p4">Mi Formulario</string>
+    <string name="p5">Mi Formulario</string>
+    <string name="p6">Mi Formulario</string>
+    <string name="p7">Mi Formulario</string>
+    <string name="p8">Mi Formulario</string>
+    <string name="p9">Mi Formulario</string>
+    <string name="p10">Mi Formulario</string>
+    <string name="p11">Mi Formulario</string>
+    <string name="p12">Mi Formulario</string>
+    <string name="p13">Mi Formulario</string>
+    <string name="p14">Mi Formulario</string>
+    <string name="p15">Mi Formulario</string>
+    <string name="p16">Mi Formulario</string>
+    <string name="p17">Mi Formulario</string>
+    <string name="p18">Mi Formulario</string>
+    <string name="p19">Mi Formulario</string>
+    <string name="p20">Mi Formulario</string>
+    <string name="p21">Mi Formulario</string>
+
+
+    <string name="btnaceptar">Mi Formulario</string>
+    <string name="Titulo2">datos</string>
+    <string name="btnok">OK</string>
+
+</resources>
