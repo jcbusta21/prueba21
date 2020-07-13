@@ -16,7 +16,7 @@
         android:layout_gravity="center"
         />
 
-
+//llamamos donde guardamos la variable
 
     <TextView
         android:id="@+id/tvp4"
@@ -24,7 +24,9 @@
         android:layout_height="wrap_content"
         android:text="@string/p4"
         android:textSize="27dp"
-        android:layout_marginTop="@dimen/espacio_top"/>
+        android:layout_marginTop="@dimen/espacio_top"
+        android:drawableLeft="@drawable/alert"/>
+
 
     <Button
         android:id="@+id/btnok"

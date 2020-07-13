@@ -2,9 +2,11 @@ package com.example.formulario21;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -13,7 +15,7 @@ public class MostrarDatos extends AppCompatActivity {
 
 
     int contador;
-    TextView tvp4;
+    TextView tvp4,tvp5,tvp6;
     Button btnok;
 
     @Override
@@ -25,7 +27,10 @@ public class MostrarDatos extends AppCompatActivity {
         tvp4 = (TextView)findViewById(R.id.tvp4);
 
 
+
         btnok = (Button)findViewById(R.id.btnok);
+
+        //al oprimir el boton se ejecuta lo siguiente
         btnok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,9 +41,10 @@ public class MostrarDatos extends AppCompatActivity {
         mostrarDato();
 
     }
-
+    //con esta funcion traemos los datos de el activity
     private void mostrarDato() {
         Integer contador = 0;
+        Integer i1,i2,i3;
         Bundle datos = this.getIntent().getExtras();
         String r1 = datos.getString("1");
         String r2 = datos.getString("2");
@@ -62,7 +68,11 @@ public class MostrarDatos extends AppCompatActivity {
         String r20 = datos.getString("20");
         String r21 = datos.getString("21");
 
+        String r31 = datos.getString("31");
+        String r32 = datos.getString("32");
+        String r33 = datos.getString("33");
 
+        //usando la variable contador sumamos todos los campos
         contador = contador + Integer.parseInt(r1);
         contador = contador + Integer.parseInt(r2);
         contador = contador + Integer.parseInt(r3);
@@ -84,15 +94,33 @@ public class MostrarDatos extends AppCompatActivity {
         contador = contador + Integer.parseInt(r19);
         contador = contador + Integer.parseInt(r20);
         contador = contador + Integer.parseInt(r21);
-        String total = "";
-        if (contador>15){
+        Drawable icon;
+        //creamos variables para los intervalos
+        i1 = Integer.parseInt(r31);
+        i2 = Integer.parseInt(r32);
 
-          total = "Hola tengo 21";
+    // dependiendo los intervalos entraran en los if y determinara si se puede operar o no
+        String total = "";
+        if (contador>=21 && contador <i1 ){
+
+          total ="Ok to proceed, the result is: "+Integer.toString(contador);
+
+        }
+        if (contador>=i1 && contador <i2 ){
+
+            total ="Reserverd OR Capacity for emergent/urgent cases, the result is "+Integer.toString(contador);
+        }
+        if (contador>=i2  && contador<110){
+
+            total ="Procedure not justified the result is :  "+Integer.toString(contador);
         }
 
 
 
+
+
         tvp4.setText(total);
+
 
 }
 }

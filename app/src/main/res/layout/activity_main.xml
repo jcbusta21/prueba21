@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:padding="30dp">
 
 
 
 
 
+    //se crea el cuerpo de la app
 
         <ScrollView
             android:layout_width="match_parent"
@@ -19,6 +21,53 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+                //titulos
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Parameters"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/var1"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
+                //campos de texto
+                <EditText
+                    android:id="@+id/editvar1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/na"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:inputType="text"
+                    android:digits="1234567890"
+                    android:maxLength="2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/var2"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
+                <EditText
+                    android:id="@+id/editvar2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/na"
+                    android:layout_margin="@dimen/espacio_top"
+                    android:inputType="text"
+                    android:digits="1234567890"
+                    android:maxLength="2"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -28,173 +77,394 @@
                     android:textStyle="bold"
                     android:layout_centerHorizontal="true"
                     />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p1"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
+                /con android digits solo dejamos admitir esos caracteres y lenght para que solo admita uno de largo
                 <EditText
                     android:id="@+id/editp1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:hint="@string/na"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p1"
-                    android:inputType="text" />
+                    android:inputType="text"
+
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p2"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p2"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p3"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p3"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p4"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p4"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p5"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p5"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p6"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p6"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p7"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p7"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulob"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p8"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p8"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p9"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p9"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p10"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p10"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p11"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p11"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p12"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p12"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p13"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p13"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p14"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p14"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p15"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p15"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p16"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p16"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p17"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p17"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p18"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p18"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p19"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p19"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p20"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp20"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p20"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p21"
+                    android:textSize="@dimen/tamaño_letra"
+                    android:textColor="#000"
+                    android:layout_centerHorizontal="true"
+                    />
 
                 <EditText
                     android:id="@+id/editp21"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/espacio_top"
-                    android:hint="@string/p21"
-                    android:inputType="text" />
+                    android:hint="@string/na"
+                    android:inputType="text"
+                    android:digits="12345"
+                    android:maxLength="1"/>
                 <Button
                     android:id="@+id/btnaceptar"
                     android:layout_width="match_parent"

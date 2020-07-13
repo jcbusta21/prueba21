@@ -1,31 +1,43 @@
 <resources>
-    <string name="app_name">Formulario21</string>
-    <string name="titulo">Formulario preguntas</string>
-    <string name="p1">Mi Formulario</string>
-    <string name="p2">Mi Formulario</string>
-    <string name="p3">Mi Formulario</string>
-    <string name="p4">Mi Formulario</string>
-    <string name="p5">Mi Formulario</string>
-    <string name="p6">Mi Formulario</string>
-    <string name="p7">Mi Formulario</string>
-    <string name="p8">Mi Formulario</string>
-    <string name="p9">Mi Formulario</string>
-    <string name="p10">Mi Formulario</string>
-    <string name="p11">Mi Formulario</string>
-    <string name="p12">Mi Formulario</string>
-    <string name="p13">Mi Formulario</string>
-    <string name="p14">Mi Formulario</string>
-    <string name="p15">Mi Formulario</string>
-    <string name="p16">Mi Formulario</string>
-    <string name="p17">Mi Formulario</string>
-    <string name="p18">Mi Formulario</string>
-    <string name="p19">Mi Formulario</string>
-    <string name="p20">Mi Formulario</string>
-    <string name="p21">Mi Formulario</string>
+    <string name="app_name">Calculator MeNTs</string>
+
+
+
+    //se crean las variables que vamos a usar en el activity main
+
+    <string name="titulo">Procedure Factors </string>
+    <string name="titulob">Disease Factors</string>
+    <string name="na">Not Available</string>
+
+    <string name="var1">Insert first interval</string>
+    <string name="var2">Insert second interval</string>
+
+
+    <string name="p1">\nOperating room time, minutes : \n \nless than 30 = 1 \n31 - 60 = 2 \n61 - 120 = 3 \n121 - 180 = 4 \n >= 181 = 5</string>
+    <string name="p2">Estimated lenght of stay: \n \noutpatient = 1 \nless than 23 hours = 2 \n24 - 48 hours = 3 \n2 - 3 days = 4 \n >= 4 days = 5 </string>
+    <string name="p3">Postoperative ICU need, %: \n \nvery unlikely = 1 \nless than 5 = 2 \n5 - 10 = 3 \n11 - 25 = 4 \n > 25</string>
+    <string name="p4">Anticipated blood loss, cc: \n \nless than 100 = 1 \n100 - 250 = 2 \n250 - 500 = 3 \n500 - 750 = 4 \n>=751 = 5 </string>
+    <string name="p5">Surgical team size, n: \n \n1 = 1 \n2 = 2 \n3 = 3 \n4 = 4 \n >4 = 5</string>
+    <string name="p6">Intubation probability, %: \n \nless than 1 \n1 - 5 = 2 \n6 - 10 = 3 \n11 - 25 = 4 \n > 25 = 5</string>
+    <string name="p7">Surgical: \n \n-None of the following row variables = 1 \n-Abdominopelvic minimally invasive \nsurgery = 2 \n-Abdominopelvic open surgery, \ninfraumbilical = 3 \n-Abdominopelvic open surgery, supraumbilical = 4 \n-OHNS/uppe GI/thoracic = 5</string>
+    <string name="p8">\nNonoperative treatment option effectiveness : \n  \n-OHNS/uppe GI/thoracic = 1 \n-Available, less than 40% as effective as surgery = 2 \n-Available, 40% to 60% as effective as surgery = 3 \n-Available, 61% to 95% as effective as surgery = 4 \n-Available, equally effective = 5 </string>
+    <string name="p9">Nonoperative treatment option resource/exposure risk: \n \nSignificantly worse/not applicable = 1 \nSomewhat worse = 2 \nEquivalent = 3 \nSomewhat better = 4 \nSignificantly better = 5</string>
+    <string name="p10">Impact of 2-wk delay in disease outcome : \n \nSignificantly worse = 1 \nWorse = 2 \nModerately worse = 3 \nSlightly worse = 4 \nNo worse = 5</string>
+    <string name="p11">Impact of 2-wk delay in surgical difficulty/risk : \n \nSignificantly worse = 1 \nWorse = 2 \nModerately worse = 3 \nSlightly worse = 4 \nNo worse = 5</string>
+    <string name="p12">Impact of 6-wk delay in disease outcome : \n \nSignificantly worse = 1 \nWorse = 2 \nModerately worse = 3 \nSlightly worse = 4 \nNo worse = 5</string>
+    <string name="p13">Impact of 6-wk delay in surgical difficulty/risk : \n \nSignificantly worse = 1 \nWorse = 2 \nModerately worse = 3 \nSlightly worse = 4 \nNo worse = 5</string>
+    <string name="p14">age: \n \nless than 20 = 1\n21 - 40 = 2 \n41 - 50 = 3 \n51 - 65 = 4 \n >65 = 5</string>
+    <string name="p15">Lung disease (asthma, COPD, CF) : \n \nNone = 1 \n"Minimal (rare inhaler)" = 4 \nMinimal = 5</string>
+    <string name="p16">Obstructive sleep apnea : \n \nNot present = 1 \nMild/moderate (no CPAP) = 4 \nOn CPAP = 5</string>
+    <string name="p17">CV disease (HTN, CHF, CAD) : \n \nNone = 1 \nMinimal (no meds) = 2 \nMild (1 med) = 3 \nModerate (2 meds) = 4 \nSevere (≥3 meds) = 5</string>
+    <string name="p18">Diabetes:\n \nNone = 1 \nMild (no meds) = 3 \nModerate (PO meds only) = 4 \n> Moderate (insulin) = 5</string>
+    <string name="p19">Immunocompromised : \n \nNo = 1 \nModerate = 4 \nSevere = 5 </string>
+    <string name="p20">ILI symptoms (fever, cough, sore throat, body aches, diarrhea) : \n \nNone (Asymptomatic) = 1 \nYes = 5</string>
+    <string name="p21">Exposure to known COVID–19 positive person in past 14 days : \n \nNo = 1 \nProbably not = 2 \nPossibly = 3 \nProbably = 4 \nYes=5</string>
 
 
     <string name="btnaceptar">Mi Formulario</string>
-    <string name="Titulo2">datos</string>
+    <string name="Titulo2">Disease Factors</string>
     <string name="btnok">OK</string>
 
 </resources>
